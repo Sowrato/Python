@@ -13,7 +13,7 @@ media = (nota1 + nota2) / 2
 
 print(f'\nSua média {name}, foi de {media}')
 
-# Mostrado se o aluno passo ou não
+# Mostrando se o aluno passou ou não
 if media < 6.0:
     print(f'\nVocê não atingiu a nota corte, estude mais!!')
 elif media >= 6.0:
