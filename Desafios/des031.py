@@ -15,7 +15,7 @@ if dis > 200:
     print(f'\nSua viagem custará R${int(val_km)} reais.')
 else:
     # Avisando sobre o valor a ser cobrado
-    print(f'Como sua viagem não passa de 200 km, o preço a ser cobrado será R$0,50 centavos por cada km.')
+    print(f'\nComo sua viagem não passa de 200 km, o preço a ser cobrado será R$0,50 centavos por cada km.')
     
     # Calculando
     val_km = dis * 0.50
