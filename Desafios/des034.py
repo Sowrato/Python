@@ -11,12 +11,12 @@ if float(salario) <= 1250.0:
 
     aum_menor = (float(salario) * 15) / 100
 
-    print(f'\nO seu salário de R${salario} é inferio à R$1250.00, sendo assim, você terá um aumento de 15%, recebendo R${aum_menor:.1f}, ficando com R${float(salario) + aum_menor:.1f}!')
+    print(f'\nO seu salário de R${salario} é inferio à R$1250.00, sendo assim, você terá um aumento de 15%, recebendo R${aum_menor:.2f}, ficando com R${float(salario) + aum_menor:.2f}!')
 
 else:
 
     aum_maior = (float(salario) * 10) / 100
 
-    print(f'\nO seu salario de R${salario} é superior à R$1250.00, sendo assim, você terá um aumento de 10%, recebendo R${aum_maior:.1f}, ficando com R${float(salario) + aum_maior:.1f}!')
+    print(f'\nO seu salario de R${salario} é superior à R$1250.00, sendo assim, você terá um aumento de 10%, recebendo R${aum_maior:.2f}, ficando com R${float(salario) + aum_maior:.2f}!')
 
 print('\n','-'*5,'FIM DO PROGRAMA','-'*5,'\n')
