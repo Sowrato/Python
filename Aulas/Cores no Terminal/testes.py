@@ -1,0 +1,8 @@
+print('\n\033[0;30;41mTeste') # SEM ESTILO, TEXTO BRANCO, FUNDO VERMELHO
+print('\n\033[4;33;44mTeste') # SUBLINHADO, TEXTO AMARELO, FUNDO ROXO
+print('\n\033[1;35;43mTeste') # NEGRITO, TEXTO ROSA, FUNDO AMARELO
+print('\n\033[30;42mTeste') # ESTILO DO TERMINAL, TEXTO BRANCO, FUNDO VERDE
+print('\n\033[mTeste') # PADRÃO DO TERMINAL
+print('\n\033[7mTeste') # NEGATIVO
+
+print('\n\033[m')
