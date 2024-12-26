@@ -55,7 +55,7 @@ else:
 
     if preco_presta > trinta_porc:
         print(f'\n\033[1;31m•\033[m \033[36mO preço das suas parcelas seriam \033[1;32mR${preco_presta:.2f} reais\033[m\033[36m, sendo acima de 30% do seu salário, que corresponde à \033[1;32mR${trinta_porc:.2f} reais\033[m\033[36m.')
-        print('\n\033[1;7;31m•\033[m Infelizmente o empréstimo não pode ser aprovado!\033[m')
+        print('\n\033[1;31m•\033[m \033[1;7;31mInfelizmente o empréstimo não pode ser aprovado!\033[m')
     else:
         print(f'\n\033[1;31m•\033[m \033[36mO preço das suas parcelas seriam \033[1;32mR${preco_presta:.2f} reais\033[m\033[36m, sendo acima de 30% do seu salário, que corresponde à \033[1;32mR${trinta_porc:.2f} reais\033[m\033[36m.')
         print('\n\033[1;31m•\033[m \033[1;7;32mEmpréstimo confirmado!\033[m')
